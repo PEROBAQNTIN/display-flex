@@ -1,0 +1,42 @@
+section {
+    border: 2px solid red;
+
+}
+
+.iphone {
+    display: flex;
+    align-items: center; /*cima ou baixo*/
+    justify-content: center;/*lado*/
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.iphone img{
+    width: 20rem;
+}
+
+.iphone p {
+    width: 30rem;
+}
+
+
+
+.samsung{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 4rem;
+    justify-content: center; 
+    margin-bottom: 1rem;
+   
+}
+.formulario{
+    padding: 1rem";
+}
+.samsung img {
+    width: 20rem;
+}
+.samsung p {
+    width: 30rem;
+    text-align: center;
+}
